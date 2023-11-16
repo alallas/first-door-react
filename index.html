@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>111</title>
+        <meta name="author" content="ssss" />
+        <meta name="description" content="sssssss" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">   <!--这是啥意思呢-->
+        <!--这是用CDN来引入react的代码，用了react和react-dom，并非用了脚手架，让我们可以使用react的功能-->
+        <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+        <!--这里用上beibal，目的是把react的东西转化成js可识别的代码格式-->
+        <script src="https://unpkg.com/@babel/standalone@7.23.3/babel.min.js"></script>
+        <link rel="stylesheet" href="src/components/lists/lists-style.css" />
+    </head>
+    <body>
+        <!--创建根组件-->
+        <div id="root"></div>
+        <!--这里用上beibal，在script后面加上type-->
+        <!--写js代码-->
+        <script type="text/babel" src="src/components/input/input-component.jsx"></script>
+        <script type="text/babel" src="src/components/lists/lists-component.jsx"></script>
+        <script type="text/babel" src="src/App.js"></script>
+        <script type="text/babel" src="src/index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
